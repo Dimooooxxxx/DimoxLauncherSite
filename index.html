@@ -1,0 +1,527 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DimoxLauncher — Minecraft Launcher</title>
+
+    <meta name="description" content="DimoxLauncher — современный пиксельный Minecraft Launcher. Управляй сборками, модами и версиями Minecraft в одном месте.">
+
+    <link rel="icon" href="assets/dimox-logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background-grid"></div>
+    <div class="background-glow"></div>
+
+    <!-- Header -->
+    <header class="header">
+
+        <a href="#home" class="logo">
+            <img src="assets/dimox-logo.png" alt="DimoxLauncher">
+            <span>Dimox<span class="logo-green">Launcher</span></span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="navigation">
+            <a href="#features">Возможности</a>
+            <a href="#modpacks">Сборки</a>
+            <a href="#about">О проекте</a>
+            <a href="#download" class="nav-download">Скачать ↗</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content">
+
+                <div class="version-label">
+                    <span class="status-dot"></span>
+                    MINECRAFT LAUNCHER
+                </div>
+
+                <h1>
+                    ТВОЙ MINECRAFT.
+                    <span>ТВОИ ПРАВИЛА.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Все любимые сборки, моды и версии Minecraft
+                    в одном месте. Создавай собственные игровые
+                    миры и запускай их без лишних сложностей.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#download" class="button button-primary">
+                        <span>↓</span>
+                        СКАЧАТЬ
+                    </a>
+
+                    <a href="https://github.com/Dimooooxxxx/DimoxLauncher" target="_blank" rel="noopener noreferrer"
+                       class="button button-secondary">
+                        GITHUB
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+                <div class="hero-info">
+                    <span class="info-square"></span>
+                    СОЗДАН ДЛЯ ЛЮБИТЕЛЕЙ MINECRAFT
+                </div>
+
+            </div>
+
+            <!-- Launcher Preview -->
+            <div class="hero-preview">
+
+                <div class="pixel-decoration decoration-one"></div>
+                <div class="pixel-decoration decoration-two"></div>
+                <div class="pixel-decoration decoration-three"></div>
+
+                <div class="launcher-card">
+
+                    <div class="launcher-header">
+
+                        <div class="launcher-brand">
+                            <img src="assets/dimox-logo.png" alt="">
+                            <span>DimoxLauncher</span>
+                        </div>
+
+                        <div class="window-controls">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </div>
+
+                    <div class="launcher-body">
+
+                        <aside class="launcher-sidebar">
+
+                            <div class="sidebar-item active">▦</div>
+                            <div class="sidebar-item">◈</div>
+                            <div class="sidebar-item">⚙</div>
+
+                            <div class="sidebar-avatar">D</div>
+
+                        </aside>
+
+                        <div class="launcher-content">
+
+                            <div class="launcher-title">
+                                МОИ СБОРКИ
+                                <span>✦</span>
+                            </div>
+
+                            <div class="minecraft-world">
+
+                                <div class="world-sky">
+                                    <div class="world-sun"></div>
+                                    <div class="world-mountain mountain-one"></div>
+                                    <div class="world-mountain mountain-two"></div>
+                                    <div class="world-ground"></div>
+
+                                    <div class="world-tree">
+                                        <div class="tree-leaves"></div>
+                                        <div class="tree-trunk"></div>
+                                    </div>
+
+                                </div>
+
+                                <div class="world-details">
+
+                                    <div>
+                                        <h3>Survival World</h3>
+                                        <p>Fabric · 1.21.4</p>
+                                    </div>
+
+                                    <span class="world-status">
+                                        <i></i> ГОТОВО
+                                    </span>
+
+                                </div>
+
+                                <a href="#download" class="preview-download">
+                                    ↓ СКАЧАТЬ
+                                </a>
+
+                            </div>
+
+                            <div class="launcher-mini-grid">
+
+                                <div class="mini-card">
+                                    <span>▧</span>
+                                    <b>МОИ СБОРКИ</b>
+                                    <small>3 проекта</small>
+                                </div>
+
+                                <div class="mini-card">
+                                    <span>＋</span>
+                                    <b>ДОБАВИТЬ</b>
+                                    <small>Новая сборка</small>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="launcher-footer">
+                        DIMОXLAUNCHER PREVIEW
+                        <span>v1.0</span>
+                    </div>
+
+                </div>
+
+                <div class="floating-label label-one">
+                    <span>✦</span> ТВОИ СБОРКИ
+                </div>
+
+                <div class="floating-label label-two">
+                    <span>✓</span> PIXEL STYLE
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Marquee -->
+        <section class="marquee">
+            <div class="marquee-content">
+                <span>СОЗДАВАЙ</span>
+                <b>✦</b>
+                <span>НАСТРАИВАЙ</span>
+                <b>✦</b>
+                <span>ИГРАЙ</span>
+                <b>✦</b>
+                <span>СОЗДАВАЙ</span>
+                <b>✦</b>
+                <span>НАСТРАИВАЙ</span>
+                <b>✦</b>
+                <span>ИГРАЙ</span>
+                <b>✦</b>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features section" id="features">
+
+            <div class="section-heading">
+
+                <div>
+                    <div class="section-label">01 / ВОЗМОЖНОСТИ</div>
+
+                    <h2>
+                        ВСЁ НЕОБХОДИМОЕ.
+                        <span>В ОДНОМ МЕСТЕ.</span>
+                    </h2>
+                </div>
+
+                <p>
+                    Удобный инструмент для управления Minecraft.
+                    Никакой лишней рутины — только твои игры.
+                </p>
+
+            </div>
+
+            <div class="features-grid">
+
+                <article class="feature-card feature-large">
+
+                    <div class="feature-icon">▧</div>
+
+                    <div class="stack-visual">
+                        <div class="stack-block block-one">VANILLA+</div>
+                        <div class="stack-block block-two">FABRIC</div>
+                        <div class="stack-block block-three">FORGE</div>
+                    </div>
+
+                    <h3>УПРАВЛЕНИЕ СБОРКАМИ</h3>
+
+                    <p>
+                        Создавай и управляй несколькими сборками.
+                        У каждой будут собственные моды,
+                        настройки и версия Minecraft.
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">＋</div>
+
+                    <div class="mod-visual">
+                        <div class="mod-chip">MODRINTH</div>
+                        <span>+</span>
+                        <div class="mod-chip">MODS</div>
+                    </div>
+
+                    <h3>MODRINTH</h3>
+
+                    <p>
+                        Находи, устанавливай и управляй
+                        модами через Modrinth.
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">◈</div>
+
+                    <div class="loader-visual">
+                        <span>FABRIC</span>
+                        <span>FORGE</span>
+                        <span>NEOFORGE</span>
+                    </div>
+
+                    <h3>МОДЛОАДЕРЫ</h3>
+
+                    <p>
+                        Выбирай подходящий загрузчик
+                        для каждой игровой сборки.
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">▣</div>
+
+                    <div class="skin-visual">
+                        <div class="skin-head"></div>
+                        <div class="skin-body"></div>
+                        <div class="skin-legs"></div>
+                    </div>
+
+                    <h3>MICROSOFT LOGIN</h3>
+
+                    <p>
+                        Авторизация через Microsoft
+                        и поддержка лицензионного Minecraft.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Modpacks -->
+        <section class="modpacks section" id="modpacks">
+
+            <div class="modpacks-text">
+
+                <div class="section-label">02 / ТВОЯ БИБЛИОТЕКА</div>
+
+                <h2>
+                    СОБИРАЙ.
+                    <span>НАСТРАИВАЙ.</span>
+                    ИГРАЙ.
+                </h2>
+
+                <p>
+                    Создавай собственные сборки Minecraft.
+                    Разделяй моды, версии и настройки.
+                    Переключайся между игровыми мирами
+                    в несколько кликов.
+                </p>
+
+                <a href="#download" class="text-link">
+                    УЗНАТЬ БОЛЬШЕ ↗
+                </a>
+
+            </div>
+
+            <div class="packs-window">
+
+                <div class="packs-header">
+                    <span>МОИ СБОРКИ</span>
+                    <span>03 / 12</span>
+                </div>
+
+                <div class="pack-item">
+
+                    <div class="pack-icon pack-forest">✦</div>
+
+                    <div class="pack-info">
+                        <b>Vanilla+ Adventure</b>
+                        <small>Fabric · 1.21.4 · 24 мода</small>
+                    </div>
+
+                    <span class="pack-arrow">↗</span>
+
+                </div>
+
+                <div class="pack-item">
+
+                    <div class="pack-icon pack-purple">◈</div>
+
+                    <div class="pack-info">
+                        <b>Tech & Create</b>
+                        <small>Forge · 1.20.1 · 68 модов</small>
+                    </div>
+
+                    <span class="pack-arrow">↗</span>
+
+                </div>
+
+                <div class="pack-item">
+
+                    <div class="pack-icon pack-sunset">☀</div>
+
+                    <div class="pack-info">
+                        <b>Cozy Survival</b>
+                        <small>Fabric · 1.20.4 · 17 модов</small>
+                    </div>
+
+                    <span class="pack-arrow">↗</span>
+
+                </div>
+
+                <div class="pack-add">
+                    <span>＋</span>
+                    СОЗДАТЬ НОВУЮ СБОРКУ
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+
+            <div class="about-logo">
+                <img src="assets/dimox-logo.png" alt="DimoxLauncher Logo">
+            </div>
+
+            <div class="about-content">
+
+                <div class="section-label">03 / О ПРОЕКТЕ</div>
+
+                <h2>
+                    ЗНАКОМЬСЯ —
+                    <span>DIMОXLAUNCHER.</span>
+                </h2>
+
+                <p>
+                    DimoxLauncher — это лаунчер Minecraft,
+                    созданный для удобного управления игровыми
+                    сборками, модами и версиями игры.
+                    Мы хотим объединить всё необходимое
+                    в одном современном приложении.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Download -->
+        <section class="download-section section" id="download">
+
+            <div class="download-panel">
+
+                <div class="download-decoration">✦</div>
+
+                <div class="section-label">04 / НАЧНИ ПРИКЛЮЧЕНИЕ</div>
+
+                <h2>
+                    ГОТОВ К ИГРЕ?
+                    <span>МЫ ТОЖЕ.</span>
+                </h2>
+
+                <p>
+                    DimoxLauncher находится в разработке.
+                    Скоро ты сможешь скачать его и начать
+                    создавать собственные игровые миры.
+                </p>
+
+                <div class="download-buttons">
+
+                    <a href="#" class="button button-primary download-disabled"
+                       aria-disabled="true">
+                        ↓ СКАЧАТЬ
+                    </a>
+
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer" class="button button-secondary">
+                        GITHUB ↗
+                    </a>
+
+                </div>
+
+                <div class="platform-list">
+                    <span>WINDOWS</span>
+                    <i>✦</i>
+                    <span>LINUX</span>
+                    <i>✦</i>
+                    <span>MACOS</span>
+                </div>
+
+                <div class="coming-soon">COMING SOON...</div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-main">
+
+            <a href="#home" class="logo">
+                <img src="assets/dimox-logo.png" alt="">
+                <span>Dimox<span class="logo-green">Launcher</span></span>
+            </a>
+
+            <span class="footer-description">
+                СОЗДАНО ДЛЯ ЛЮБИТЕЛЕЙ MINECRAFT.
+            </span>
+
+            <a href="#home" class="back-top">
+                НАВЕРХ ↑
+            </a>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© <span id="year"></span> DIMOXLAUNCHER</span>
+
+            <span>
+                NOT AN OFFICIAL MINECRAFT PRODUCT.
+                NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
+            </span>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
