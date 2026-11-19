@@ -1,25 +1,18 @@
-# 🟩 DimoxLauncher
+# DimoxLauncher
 
 \<p align="center">
-&#x20; \<img src="assets/dimox-logo.png" width="120" alt="DimoxLauncher Logo">
+&#x20; \<img src="assets/dimox-logo.png" width="110" alt="DimoxLauncher Logo">
 \</p>
 
 \<h3 align="center">A modern Minecraft launcher. Your game, your rules.\</h3>
 
-\<p align="center">
-&#x20; \<b>Управляй сборками. Устанавливай моды. Создавай собственный Minecraft.\</b>
-\</p>
+\<p align="center">   Управляй сборками. Устанавливай моды. Создавай собственный Minecraft. \</p>
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-7ee34b?style=for-the-badge](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-7ee34b?style=for-the-badge)" alt="Platforms">
-&#x20; \<img src="[https://img.shields.io/badge/Language-C%23-7ee34b?style=for-the-badge](https://img.shields.io/badge/Language-C%23-7ee34b?style=for-the-badge)" alt="C Sharp">
-&#x20; \<img src="[https://img.shields.io/badge/Game-Minecraft-7ee34b?style=for-the-badge](https://img.shields.io/badge/Game-Minecraft-7ee34b?style=for-the-badge)" alt="Minecraft">
-&#x20; \<img src="[https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)" alt="Status">
-\</p>
+\<p align="center">   \<img src="[https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-7ee34b?style=for-the-badge](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-7ee34b?style=for-the-badge)" alt="Platforms">   \<img src="[https://img.shields.io/badge/Language-C%23-7ee34b?style=for-the-badge](https://img.shields.io/badge/Language-C%23-7ee34b?style=for-the-badge)" alt="Language">   \<img src="[https://img.shields.io/badge/Game-Minecraft-7ee34b?style=for-the-badge](https://img.shields.io/badge/Game-Minecraft-7ee34b?style=for-the-badge)" alt="Game">   \<img src="[https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)" alt="Development Status"> \</p>
 
 ---
 
-## 🎮 About
+## About
 
 **DimoxLauncher** — современный лаунчер для Minecraft Java Edition, созданный для удобного управления игровыми сборками, модами и версиями Minecraft.
 
@@ -27,49 +20,51 @@
 
 Никаких лишних действий. Только Minecraft и твои возможности.
 
-## ✨ Features
+## Features
 
-| Возможность           | Описание                                     |
-| :-------------------- | :------------------------------------------- |
-| 📦 Installations      | Создание и управление игровыми сборками      |
-| 🧩 Mod Management     | Установка и управление модами                |
-| 🌐 Modrinth           | Интеграция с каталогом Modrinth              |
-| ⚙️ Mod Loaders        | Поддержка Fabric, Forge и NeoForge           |
-| 👤 Microsoft Login    | Авторизация через Microsoft                  |
-| 🎨 Customization      | Настройка иконок и параметров сборок         |
-| 🧱 Pixel UI           | Современный интерфейс с пиксельной эстетикой |
-| 💾 Isolated Instances | Отдельные игровые окружения                  |
+| Feature            | Description                             |
+| :----------------- | :-------------------------------------- |
+| Installations      | Создание и управление игровыми сборками |
+| Mod Management     | Установка и управление модами           |
+| Modrinth           | Интеграция с каталогом Modrinth         |
+| Mod Loaders        | Поддержка Fabric, Forge и NeoForge      |
+| Microsoft Login    | Авторизация через Microsoft             |
+| Customization      | Настройка иконок и параметров сборок    |
+| Pixel UI           | Интерфейс с пиксельной эстетикой        |
+| Isolated Instances | Отдельные игровые окружения             |
 
-## 🖥️ Supported Platforms
+## Supported Platforms
 
 DimoxLauncher разрабатывается с расчётом на работу на трёх основных настольных платформах.
 
-| Platform   | Architecture / Format     |
-| :--------- | :------------------------ |
-| 🪟 Windows | Windows 10 / 11           |
-| 🍎 macOS   | Apple Silicon / Intel     |
-| 🐧 Linux   | AppImage / Linux packages |
+| Platform | Supported Systems         |
+| :------- | :------------------------ |
+| Windows  | Windows 10 / 11           |
+| macOS    | Apple Silicon / Intel     |
+| Linux    | AppImage / Linux packages |
 
 *Доступность установщиков зависит от опубликованных релизов.*
 
-## 📸 Screenshots
+## Screenshots
 
-\<p align="center">   \<i>Здесь будут размещаться скриншоты интерфейса DimoxLauncher.\</i> \</p>
+\<p align="center">
+&#x20; \<i>Скриншоты интерфейса DimoxLauncher появятся здесь.\</i>
+\</p>
 
-\<!-- \<p align="center">   \<img src="docs/screenshots/installations.png" width="85%" alt="Installations"> \</p> -->
+\<!-- \<p align="center">   \<img src="docs/screenshots/installations.png" width="85%" alt="DimoxLauncher Installations"> \</p> -->
 
-## 🛠️ Built With
+## Built With
 
 - **C#** — основной язык разработки.
 - **.NET** — платформа приложения.
 - **Modrinth API** — работа с каталогом модификаций.
 - **Microsoft Authentication** — авторизация пользователей.
 
-## 📥 Download
+## Download
 
-Все доступные версии DimoxLauncher будут публиковаться в разделе Releases.
+Все доступные версии DimoxLauncher будут публиковаться в разделе GitHub Releases.
 
-\<p align="center">   \<a href="../../releases">     \<img src="[https://img.shields.io/badge/DOWNLOAD-LATEST%20RELEASE-7ee34b?style=for-the-badge&logo=github&logoColor=black](https://img.shields.io/badge/DOWNLOAD-LATEST%20RELEASE-7ee34b?style=for-the-badge\&logo=github\&logoColor=black)" alt="Download">   \</a> \</p>
+\<p align="center">   \<a href="../../releases">     \<img src="[https://img.shields.io/badge/Download-Latest%20Release-7ee34b?style=for-the-badge&logo=github&logoColor=black](https://img.shields.io/badge/Download-Latest%20Release-7ee34b?style=for-the-badge\&logo=github\&logoColor=black)" alt="Download Latest Release">   \</a> \</p>
 
 | Operating System | Download                   |
 | :--------------- | :------------------------- |
@@ -77,7 +72,7 @@ DimoxLauncher разрабатывается с расчётом на работ
 | macOS            | [Releases](../../releases) |
 | Linux            | [Releases](../../releases) |
 
-## 🚀 Development
+## Development
 
 DimoxLauncher находится в разработке. Инструкции по сборке из исходного кода будут добавлены по мере подготовки проекта.
 
@@ -87,14 +82,14 @@ DimoxLauncher находится в разработке. Инструкции �
 - .NET SDK (версия согласно проекту)
 - Поддерживаемая операционная система
 
-### Clone repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/USERNAME/DimoxLauncher.git
 cd DimoxLauncher
 ```
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Концепция дизайна лаунчера
 - [x] Пиксельная визуальная стилистика
@@ -108,7 +103,7 @@ cd DimoxLauncher
 - [ ] Сборки для macOS
 - [ ] Сборки для Linux
 
-## 🤝 Contributing
+## Contributing
 
 Есть идеи, предложения или желание помочь проекту?
 
@@ -119,7 +114,7 @@ cd DimoxLauncher
 
 Любой вклад в развитие DimoxLauncher приветствуется!
 
-## 📜 License
+## License
 
 Лицензия проекта будет определена отдельно.
 
@@ -127,4 +122,4 @@ Minecraft является товарным знаком Mojang Studios. DimoxLa
 
 ---
 
-\<p align="center">   \<img src="assets/dimox-logo.png" width="48" alt="Dimox">   \<br>   \<b>DIMОXLAUNCHER\</b>   \<br>   \<sub>Made for Minecraft players. Built with passion. 🟩\</sub> \</p>
+\<p align="center">   \<img src="assets/dimox-logo.png" width="45" alt="DimoxLauncher">   \<br>   \<b>DimoxLauncher\</b>   \<br>   \<sub>Made for Minecraft players. Built with passion.\</sub> \</p>
