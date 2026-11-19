@@ -41,17 +41,7 @@ DimoxLauncher разрабатывается с расчётом на работ
 - **.NET** — платформа приложения.
 - **Modrinth API** — работа с каталогом модификаций.
 - **Microsoft Authentication** — авторизация пользователей.
-
-## Download
-
-Все доступные версии DimoxLauncher будут публиковаться в разделе GitHub Releases.
-
-| Operating System | Download                   |
-| :--------------- | :------------------------- |
-| Windows          | [Releases](../../releases) |
-| macOS            | [Releases](../../releases) |
-| Linux            | [Releases](../../releases) |
-
+- 
 ## Development
 
 DimoxLauncher находится в разработке. Инструкции по сборке из исходного кода будут добавлены по мере подготовки проекта.
