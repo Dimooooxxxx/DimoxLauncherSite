@@ -1,17 +1,5 @@
 # DimoxLauncher
 
-\<p align="center">
-&#x20; \<img src="assets/dimox-logo.png" width="110" alt="DimoxLauncher Logo">
-\</p>
-
-\<h3 align="center">A modern Minecraft launcher. Your game, your rules.\</h3>
-
-\<p align="center">   Управляй сборками. Устанавливай моды. Создавай собственный Minecraft. \</p>
-
-\<p align="center">   \<img src="[https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-7ee34b?style=for-the-badge](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-7ee34b?style=for-the-badge)" alt="Platforms">   \<img src="[https://img.shields.io/badge/Language-C%23-7ee34b?style=for-the-badge](https://img.shields.io/badge/Language-C%23-7ee34b?style=for-the-badge)" alt="Language">   \<img src="[https://img.shields.io/badge/Game-Minecraft-7ee34b?style=for-the-badge](https://img.shields.io/badge/Game-Minecraft-7ee34b?style=for-the-badge)" alt="Game">   \<img src="[https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)" alt="Development Status"> \</p>
-
----
-
 ## About
 
 **DimoxLauncher** — современный лаунчер для Minecraft Java Edition, созданный для удобного управления игровыми сборками, модами и версиями Minecraft.
@@ -47,12 +35,6 @@ DimoxLauncher разрабатывается с расчётом на работ
 
 ## Screenshots
 
-\<p align="center">
-&#x20; \<i>Скриншоты интерфейса DimoxLauncher появятся здесь.\</i>
-\</p>
-
-\<!-- \<p align="center">   \<img src="docs/screenshots/installations.png" width="85%" alt="DimoxLauncher Installations"> \</p> -->
-
 ## Built With
 
 - **C#** — основной язык разработки.
@@ -63,8 +45,6 @@ DimoxLauncher разрабатывается с расчётом на работ
 ## Download
 
 Все доступные версии DimoxLauncher будут публиковаться в разделе GitHub Releases.
-
-\<p align="center">   \<a href="../../releases">     \<img src="[https://img.shields.io/badge/Download-Latest%20Release-7ee34b?style=for-the-badge&logo=github&logoColor=black](https://img.shields.io/badge/Download-Latest%20Release-7ee34b?style=for-the-badge\&logo=github\&logoColor=black)" alt="Download Latest Release">   \</a> \</p>
 
 | Operating System | Download                   |
 | :--------------- | :------------------------- |
@@ -93,33 +73,20 @@ cd DimoxLauncher
 
 - [x] Концепция дизайна лаунчера
 - [x] Пиксельная визуальная стилистика
-- [ ] Основной интерфейс
-- [ ] Управление игровыми сборками
-- [ ] Поддержка Fabric / Forge / NeoForge
-- [ ] Интеграция Modrinth
+- [x] Основной интерфейс
+- [x] Управление игровыми сборками
+- [x] Поддержка Fabric / Forge / NeoForge
+- [x] Интеграция Modrinth
 - [ ] Microsoft Authentication
-- [ ] Управление версиями Minecraft
-- [ ] Сборки для Windows
+- [x] Управление версиями Minecraft
+- [x] Сборки для Windows
 - [ ] Сборки для macOS
 - [ ] Сборки для Linux
 
-## Contributing
-
-Есть идеи, предложения или желание помочь проекту?
-
-1. Создай Fork репозитория.
-2. Создай новую ветку.
-3. Внеси изменения.
-4. Отправь Pull Request.
-
-Любой вклад в развитие DimoxLauncher приветствуется!
-
 ## License
 
-Лицензия проекта будет определена отдельно.
+Лицензия проекта в данный момент - GPL - 3.0.
 
 Minecraft является товарным знаком Mojang Studios. DimoxLauncher — независимый проект, не связанный с Mojang Studios или Microsoft.
 
 ---
-
-\<p align="center">   \<img src="assets/dimox-logo.png" width="45" alt="DimoxLauncher">   \<br>   \<b>DimoxLauncher\</b>   \<br>   \<sub>Made for Minecraft players. Built with passion.\</sub> \</p>
